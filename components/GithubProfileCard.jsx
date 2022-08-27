@@ -20,10 +20,10 @@ const GithubProfileCard = ({ prof }) => {
               />
             </Col>
             <Col lg='8' className='order-lg-1'>
-              <h2 className='text-white'>Reach Out to me!</h2>
+              <h2 className='text-white'>Reach out to me!</h2>
               <p className='lead text-white mt-3'>
                 Want to discuss a project or just want to say hi? My inbox is
-                open to all. Or send me a message on social media.
+                open to all! You can also find me on social media below.
               </p>
               <p className='text-white mt-3'>{prof.bio}</p>
               <div className='my-3 icon-shape bg-gradient-white shadow rounded text-info'>
