@@ -174,7 +174,7 @@ export const educationInfo = [
 export const projects = [
   {
     name: "Dragon's Lair Smoked Fine Goods",
-    desc: 'Informational mobile-first responsive website built wit Bootstrap that showcases products for a small business in North Houston.',
+    desc: 'Informational mobile-first responsive website built with Bootstrap that showcases products for a small business in North Houston.',
     github: 'https://github.com/sfotxl/dragonslair',
     link: 'https://dragonslair.netlify.app/',
   },
