@@ -96,7 +96,7 @@ export const skillsSection = {
       skills: [
         emoji('⚡ Experience working on multiple cloud platforms'),
         emoji(
-          '⚡ Hosting and maintaining websites on virtual machine instances integrating of databases'
+          '⚡ Hosting and maintaining websites on virtual machine instances'
         ),
         emoji('⚡ Integrating NoSQL databases'),
       ],
