@@ -18,7 +18,6 @@ export const contact = {};
 export const socialLinks = {
   facebook: 'https://www.facebook.com/kalani.man',
   instagram: 'https://www.instagram.com/sfotxl',
-  twitter: 'https://twitter.com/kalani_man',
   github: 'https://github.com/sfotxl',
   linkedin: 'https://www.linkedin.com/in/iahtxl/',
 };
