@@ -201,7 +201,7 @@ export const seoData = {
   title: 'Kalani Man',
   description: 'A passionate Full Stack Web and Mobile Developer',
   author: 'Kalani Man',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
+  image: 'https://avatars.githubusercontent.com/u/31608969?s=400&u=ce1b469702664f6c5b9ef66107161e9d6c158352&v=4',
   url: 'https://developer-portfolio-1hanzla100.vercel.app',
   keywords: [
     'Kalani Man',
