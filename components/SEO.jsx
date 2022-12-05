@@ -18,7 +18,7 @@ function SEO() {
 			<meta property="og:url" content={seoData.url} />
 			<meta property="og:title" content={seoData.title} />
 			<meta property="og:description" content={seoData.description} />
-			<meta property="og:image" content={seoData.image} />
+// 			<meta property="og:image" content={seoData.image} />
 			<meta property="og:site_name" content={seoData.title} />
 			{/* Twitter */}
 			<meta property="twitter:card" content="summary_large_image" />
