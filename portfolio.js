@@ -2,11 +2,11 @@ import emoji from 'react-easy-emoji';
 
 export const greetings = {
   name: 'Kalani Man',
-  title: "Aloha! I'm Kalani",
+  title: "Aloha, world! I'm Kalani",
   description:
-    "I'm a passionate Full Stack web and mobile developer with experience using JavaScript, MongoDB, Express.js, React.js, Node.js, React Native, Bootstrap, HTML5, CSS, and Git. I have a strong operations management background leading teams of over 40.",
+    "I'm a Full Stack Developer with over four years of experience building enterprise web and mobile applications using React, TypeScript, GraphQL, and more. I recently completed my Computer Science degree at Western Governors University, where I worked extensively with Java, Python, SQL, and C++.",
   resumeLink:
-    'https://drive.google.com/file/d/1mN15UeN3IKmBtEolwupy9qBOasVhjAYE/view?usp=sharing',
+    'https://docs.google.com/document/d/1mfCYfhC1stysR3AqpswHcakWL7wVKwoi/edit?usp=drive_link&ouid=103370533214088304900&rtpof=true&sd=true',
 };
 
 export const openSource = {
@@ -16,7 +16,6 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-  facebook: 'https://www.facebook.com/kalani.man',
   instagram: 'https://www.instagram.com/sfotxl',
   github: 'https://github.com/sfotxl',
   linkedin: 'https://www.linkedin.com/in/iahtxl/',
@@ -30,13 +29,9 @@ export const skillsSection = {
       title: 'Full Stack Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji(
-          '⚡ Building responsive, mobile-first Single-Page-Apps (SPA) with React.js'
-        ),
-        emoji(
-          '⚡ Building responsive static websites using Bootstrap, CSS, and Sass'
-        ),
-        emoji('⚡ Building RESTful APIs in Node.js & Express.js'),
+          'Building responsive, mobile-first Single-Page-Apps (SPA) with React.js',
+          'Building responsive static websites using Bootstrap, CSS, and Sass',
+          'Building RESTful APIs in Node.js & Express.js',
       ],
       softwareSkills: [
         {
@@ -93,11 +88,9 @@ export const skillsSection = {
       title: 'Cloud Infra-Architecture',
       lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ Experience working on multiple cloud platforms'),
-        emoji(
-          '⚡ Hosting and maintaining websites on virtual machine instances'
-        ),
-        emoji('⚡ Integrating NoSQL databases'),
+        'Experience working on multiple cloud platforms',
+        'Hosting and maintaining websites on virtual machine instances',
+        'Integrating NoSQL databases',
       ],
       softwareSkills: [
         // ? Check README To get icon details
@@ -124,51 +117,42 @@ export const skillsSection = {
 
 export const educationInfo = [
   {
+    schoolName: 'Western Governors University',
+    subHeader: 'Bachelor of Science, Computer Science',
+    desc: 'Coursework included Computer Architecture, Data Structures & Algorithsm I & II, Machine Learning, AI, and Database Management, focused on Python, Java, and C++.',
+    descBullets: [
+      'Programmed a self-adjusting algorithm to predict airline passenger numbers with Python, pandas, and scikit-learn, with Matplotlib for visualizations to improve business decision-making.',
+      'Designed and coded a Python-based package delivery optimization to streamline performance and ensure business efficiency.',
+      'Coded a localized website for an international hotel using Angular, Spring Boot, and Docker.'
+    ],
+  },
+  {
     schoolName: 'Nucamp Coding Bootcamp',
     subHeader: 'Full Stack Web + Mobile Development Bootcamp',
     duration: 'January 2022 - August 2022',
     desc: 'Built multiple React web-based apps, an Android app using React Native, a Bootstrap site, and led a successful group project from wireframing to deployment',
     grade: 'Graduated with Honors',
     descBullets: [
-      'Natives in Tech scholarship, designed to increase the representation of Native American Web and Mobile Developers in the tech industry',
+      'Natives in Tech scholarship, designed to increase the representation of Native American Web and Mobile Developers in the tech industry.',
     ],
   },
 ];
 
-// export const experience = [
-//   {
-//     role: 'Frontend Developer',
-//     company: 'Duseca Software',
-//     companylogo: '/img/icons/common/dusecaSoftware.jpg',
-//     date: 'Apr 2022 – Jun 2022',
-//     desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
-//   },
-//   {
-//     role: 'API Engineer',
-//     company: 'Duseca Software',
-//     companylogo: '/img/icons/common/dusecaSoftware.jpg',
-//     date: 'Jan 2022 – Mar 2022',
-//     desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
-//     // descBullets: [
-//     //   "Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-//     //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-//     // ],
-//   },
-//   {
-//     role: 'Full Stack Developer',
-//     company: 'Bleed-AI',
-//     companylogo: '/img/icons/common/bleedAI.jpg',
-//     date: 'Sept 2021 - Oct 2021',
-//     desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
-//   },
-//   {
-//     role: 'Backend Developer',
-//     company: 'Wapidu',
-//     companylogo: '/img/icons/common/wapidu.jpg',
-//     date: 'Sept 2021',
-//     desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
-//   },
-// ];
+export const experience = [
+  {
+    role: 'Software Developer',
+    company: 'Reynolds & Reynolds',
+    companylogo: '/img/reynoldslogo.jpg',
+    date: 'September 2022 - present',
+    desc: 'At The Reynolds and Reynolds Company, my focus is on crafting user-centric software that meets the rigorous demands of our international client base.',
+    descBullet: [
+      'Spearhead the development of modular, reusable components for enterprise-level web, mobile, and desktop applications using React, React Native, TypeScript, and Sass/CSS to convert Figma designs into code.',
+      `"Owned" a critical third-party integration by negotiating directly with upper management at the head of the third to hire staff to develop bridge solution necessary for our integration with their software, saving my company an estimated 14 weeks of development time.`,
+      `Go-to developer for mentoring and onboarding front-end developers in version control, frameworks, and company coding standards.`,
+      `Consistently recruited for high-profile company projects that convert legacy products into modern solutions.`,
+    ]
+  },
+];
 
 export const projects = [
   {
