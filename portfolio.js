@@ -155,9 +155,9 @@ export const experience = [
     desc: 'At The Reynolds and Reynolds Company, my focus is on crafting user-centric software that meets the rigorous demands of our international client base.',
     descBullets: [
       'Spearhead the development of modular, reusable components for enterprise-level web, mobile, and desktop applications using React, React Native, TypeScript, and Sass/CSS to convert Figma designs into code.',
-      `"Owned" a critical third-party integration by negotiating directly with upper management at the head of the third to hire staff to develop bridge solution necessary for our integration with their software, saving my company an estimated 14 weeks of development time.`,
+      `"Owned" a critical third-party integration by negotiating directly with upper management at the head of the third party to hire staff to develop bridge solution necessary for our integration with their software, saving my company an estimated 14 weeks of development time.`,
       `Go-to developer for mentoring and onboarding front-end developers in version control, frameworks, and company coding standards.`,
-      `Consistently recruited for high-profile company projects that convert legacy products into modern solutions.`,
+      `Consistently recruited for high-profile company projects that convert legacy products into modern solutions on tight deadlines.`,
     ]
   },
 ];
