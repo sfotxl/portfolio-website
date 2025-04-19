@@ -22,8 +22,8 @@ export const socialLinks = {
 };
 
 export const skillsSection = {
-  title: 'What I do',
-  subTitle: 'FULL STACK DEVELOPER EAGER TO EXPLORE EVERY TECH STACK',
+  title: 'Skills & Proficiencies',
+  subTitle: 'Full stack developer eager to explore every stack',
   data: [
     {
       title: 'Full Stack Development',
@@ -82,6 +82,14 @@ export const skillsSection = {
           skillName: 'jQuery',
           fontAwesomeClassname: 'logos:jquery',
         },
+        {
+          skillName: 'Expo',
+          fontAwesomeClassname: 'vscode-icons:file-type-light-expo',
+        },
+        {
+          skillName: 'Sentry',
+          fontAwesomeClassname: 'vscode-icons:file-type-sentry',
+        },
       ],
     },
     {
@@ -119,7 +127,7 @@ export const educationInfo = [
   {
     schoolName: 'Western Governors University',
     subHeader: 'Bachelor of Science, Computer Science',
-    desc: 'Coursework included Computer Architecture, Data Structures & Algorithsm I & II, Machine Learning, AI, and Database Management, focused on Python, Java, and C++.',
+    desc: 'Coursework included Computer Architecture, Data Structures & Algorithms I & II, Machine Learning, AI, and Database Management, focused on Python, Java, C++, and SQL.',
     descBullets: [
       'Programmed a self-adjusting algorithm to predict airline passenger numbers with Python, pandas, and scikit-learn, with Matplotlib for visualizations to improve business decision-making.',
       'Designed and coded a Python-based package delivery optimization to streamline performance and ensure business efficiency.',
@@ -145,7 +153,7 @@ export const experience = [
     companylogo: '/img/reynoldslogo.jpg',
     date: 'September 2022 - present',
     desc: 'At The Reynolds and Reynolds Company, my focus is on crafting user-centric software that meets the rigorous demands of our international client base.',
-    descBullet: [
+    descBullets: [
       'Spearhead the development of modular, reusable components for enterprise-level web, mobile, and desktop applications using React, React Native, TypeScript, and Sass/CSS to convert Figma designs into code.',
       `"Owned" a critical third-party integration by negotiating directly with upper management at the head of the third to hire staff to develop bridge solution necessary for our integration with their software, saving my company an estimated 14 weeks of development time.`,
       `Go-to developer for mentoring and onboarding front-end developers in version control, frameworks, and company coding standards.`,
